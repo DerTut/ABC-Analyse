@@ -1,0 +1,18 @@
+\\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\einfache ABC-Analyse\bin\Debug\einfache ABC-Analyse.exe.config
+\\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\einfache ABC-Analyse\bin\Debug\einfache ABC-Analyse.exe
+\\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\einfache ABC-Analyse\bin\Debug\einfache ABC-Analyse.pdb
+\\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\einfache ABC-Analyse\obj\Debug\einfache ABC-Analyse.csprojResolveAssemblyReference.cache
+\\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\einfache ABC-Analyse\obj\Debug\einfache_ABC_Analyse.Analyse.resources
+\\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\einfache ABC-Analyse\obj\Debug\einfache_ABC_Analyse.Properties.Resources.resources
+\\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\einfache ABC-Analyse\obj\Debug\einfache ABC-Analyse.csproj.GenerateResource.Cache
+\\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\einfache ABC-Analyse\obj\Debug\einfache ABC-Analyse.exe
+\\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\einfache ABC-Analyse\obj\Debug\einfache ABC-Analyse.pdb
+\\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\einfache ABC-Analyse\bin\Debug\Domain.Access.dll
+\\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\einfache ABC-Analyse\bin\Debug\Domain.dll
+\\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\einfache ABC-Analyse\bin\Debug\MySql.Data.dll
+\\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\einfache ABC-Analyse\bin\Debug\Domain.Access.pdb
+\\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\einfache ABC-Analyse\bin\Debug\Domain.pdb
+\\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\einfache ABC-Analyse\bin\Debug\MySql.Data.xml
+C:\Users\WilmsFri\source\repos\Projekte\ABC-Analyse\einfache ABC-Analyse\einfache ABC-Analyse\bin\Debug\einfache ABC-Analyse.exe.config
+C:\Users\WilmsFri\source\repos\Projekte\ABC-Analyse\einfache ABC-Analyse\einfache ABC-Analyse\obj\Debug\einfache ABC-Analyse.exe
+C:\Users\WilmsFri\source\repos\Projekte\ABC-Analyse\einfache ABC-Analyse\einfache ABC-Analyse\obj\Debug\einfache ABC-Analyse.pdb
