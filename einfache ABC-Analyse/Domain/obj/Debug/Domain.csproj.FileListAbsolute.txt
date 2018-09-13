@@ -3,3 +3,8 @@
 \\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
 \\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\Domain\obj\Debug\Domain.dll
 \\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\Domain\obj\Debug\Domain.pdb
+C:\Users\WilmsFri\source\repos\Projekte\ABC-Analyse\einfache ABC-Analyse\Domain\bin\Debug\Domain.dll
+C:\Users\WilmsFri\source\repos\Projekte\ABC-Analyse\einfache ABC-Analyse\Domain\bin\Debug\Domain.pdb
+C:\Users\WilmsFri\source\repos\Projekte\ABC-Analyse\einfache ABC-Analyse\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\WilmsFri\source\repos\Projekte\ABC-Analyse\einfache ABC-Analyse\Domain\obj\Debug\Domain.dll
+C:\Users\WilmsFri\source\repos\Projekte\ABC-Analyse\einfache ABC-Analyse\Domain\obj\Debug\Domain.pdb

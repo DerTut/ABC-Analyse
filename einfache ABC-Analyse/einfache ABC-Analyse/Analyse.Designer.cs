@@ -60,8 +60,10 @@
             // 
             this.dgv_Anzeige.AllowUserToAddRows = false;
             this.dgv_Anzeige.AllowUserToDeleteRows = false;
+            this.dgv_Anzeige.AllowUserToResizeColumns = false;
+            this.dgv_Anzeige.AllowUserToResizeRows = false;
+            this.dgv_Anzeige.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_Anzeige.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_Anzeige.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgv_Anzeige.Location = new System.Drawing.Point(0, 0);
             this.dgv_Anzeige.Name = "dgv_Anzeige";
             this.dgv_Anzeige.ReadOnly = true;

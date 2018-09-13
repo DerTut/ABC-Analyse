@@ -5,3 +5,10 @@
 \\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\Domain.Access\obj\Debug\Domain.Access.csprojResolveAssemblyReference.cache
 \\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\Domain.Access\obj\Debug\Domain.Access.dll
 \\BAIT\Benutzerdaten\IT-Auszubildende\UserProfiles\WilmsFri\Documents\Visual Studio 2015\Projects\einfache ABC-Analyse\Domain.Access\obj\Debug\Domain.Access.pdb
+C:\Users\WilmsFri\source\repos\Projekte\ABC-Analyse\einfache ABC-Analyse\Domain.Access\bin\Debug\Domain.Access.dll
+C:\Users\WilmsFri\source\repos\Projekte\ABC-Analyse\einfache ABC-Analyse\Domain.Access\bin\Debug\Domain.Access.pdb
+C:\Users\WilmsFri\source\repos\Projekte\ABC-Analyse\einfache ABC-Analyse\Domain.Access\bin\Debug\Domain.dll
+C:\Users\WilmsFri\source\repos\Projekte\ABC-Analyse\einfache ABC-Analyse\Domain.Access\bin\Debug\Domain.pdb
+C:\Users\WilmsFri\source\repos\Projekte\ABC-Analyse\einfache ABC-Analyse\Domain.Access\obj\Debug\Domain.Access.csprojResolveAssemblyReference.cache
+C:\Users\WilmsFri\source\repos\Projekte\ABC-Analyse\einfache ABC-Analyse\Domain.Access\obj\Debug\Domain.Access.dll
+C:\Users\WilmsFri\source\repos\Projekte\ABC-Analyse\einfache ABC-Analyse\Domain.Access\obj\Debug\Domain.Access.pdb
