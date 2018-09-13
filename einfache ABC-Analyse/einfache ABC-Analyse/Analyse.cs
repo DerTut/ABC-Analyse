@@ -37,20 +37,34 @@ namespace einfache_ABC_Analyse
             double Gesamtmenge = 0;
             double Gesamtwert = 0;
 
-            for (int b = 0; b < dgv_Anzeige.RowCount; b++)
-            {
-                //Gesamtmenge berechnen
-                Gesamtmenge = Gesamtmenge + Convert.ToDouble(dgv_Anzeige.Rows[b].Cells[2].Value);
-                //Gesamtwert berechnen
-                Gesamtwert = Gesamtwert + Convert.ToDouble(dgv_Anzeige.Rows[b].Cells[3].Value);
-            }
-
             for (int a = 0; a < dgv_Anzeige.RowCount; a++)
             {
+                //Gesamtmenge berechnen
+                Gesamtmenge = Gesamtmenge + Convert.ToDouble(dgv_Anzeige.Rows[a].Cells[2].Value);
+            }
+
+            for (int c = 0; c < dgv_Anzeige.RowCount; c++)
+            {
                 //absoluten Wert berechnen
-                dgv_Anzeige.Rows[a].Cells[4].Value = Convert.ToDouble(dgv_Anzeige.Rows[a].Cells[2].Value) * Convert.ToDouble(dgv_Anzeige.Rows[a].Cells[3].Value);
+                dgv_Anzeige.Rows[c].Cells[4].Value = Convert.ToDouble(dgv_Anzeige.Rows[c].Cells[2].Value) * Convert.ToDouble(dgv_Anzeige.Rows[c].Cells[3].Value);
+            }
+
+            for (int d = 0; d < dgv_Anzeige.RowCount; d++)
+            {
                 //Menge in Prozent berechnen
-                dgv_Anzeige.Rows[a].Cells[5].Value = Math.Round((Convert.ToDouble(dgv_Anzeige.Rows[a].Cells[2].Value) / Gesamtmenge) * 100);
+                dgv_Anzeige.Rows[d].Cells[5].Value = Math.Round((Convert.ToDouble(dgv_Anzeige.Rows[d].Cells[2].Value) / Gesamtmenge) * 100);
+            }
+
+            for (int b = 0; b < dgv_Anzeige.RowCount; b++)
+            {
+                //Gesamtwert berechnen
+                Gesamtwert += Convert.ToDouble(dgv_Anzeige.Rows[b].Cells[4].Value);
+            }
+
+            for (int e = 0; e < dgv_Anzeige.RowCount; e++)
+            {
+                //Wert in Prozent berechnen
+                dgv_Anzeige.Rows[e].Cells[6].Value = Math.Round(Convert.ToDouble(dgv_Anzeige.Rows[e].Cells[4].Value) *100 / Gesamtwert);
             }
         }
 
@@ -60,6 +74,7 @@ namespace einfache_ABC_Analyse
             dgv_Anzeige.Columns.Add("absolute_Werte", "absolute Werte");
             dgv_Anzeige.Columns.Add("Menge_in_Prozent", "Menge in %");
             dgv_Anzeige.Columns.Add("Wert_in_Prozent", "Wert in %");
+            dgv_Anzeige.Columns.Add("Kategorie", "Kategorie");
         }
     }
 }

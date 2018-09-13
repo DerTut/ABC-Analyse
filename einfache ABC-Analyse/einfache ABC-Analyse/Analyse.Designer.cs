@@ -52,7 +52,7 @@
             // Container.Panel2
             // 
             this.Container.Panel2.Controls.Add(this.b_berechnen);
-            this.Container.Size = new System.Drawing.Size(837, 537);
+            this.Container.Size = new System.Drawing.Size(926, 537);
             this.Container.SplitterDistance = 451;
             this.Container.TabIndex = 0;
             // 
@@ -64,10 +64,11 @@
             this.dgv_Anzeige.AllowUserToResizeRows = false;
             this.dgv_Anzeige.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_Anzeige.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_Anzeige.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgv_Anzeige.Location = new System.Drawing.Point(0, 0);
             this.dgv_Anzeige.Name = "dgv_Anzeige";
             this.dgv_Anzeige.ReadOnly = true;
-            this.dgv_Anzeige.Size = new System.Drawing.Size(837, 451);
+            this.dgv_Anzeige.Size = new System.Drawing.Size(926, 451);
             this.dgv_Anzeige.TabIndex = 0;
             // 
             // b_berechnen
@@ -76,7 +77,7 @@
             this.b_berechnen.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_berechnen.Location = new System.Drawing.Point(0, 0);
             this.b_berechnen.Name = "b_berechnen";
-            this.b_berechnen.Size = new System.Drawing.Size(837, 82);
+            this.b_berechnen.Size = new System.Drawing.Size(926, 82);
             this.b_berechnen.TabIndex = 0;
             this.b_berechnen.Text = "Berechnen";
             this.b_berechnen.UseVisualStyleBackColor = true;
@@ -85,7 +86,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(837, 537);
+            this.ClientSize = new System.Drawing.Size(926, 537);
             this.Controls.Add(this.Container);
             this.Name = "Analyse";
             this.Text = "Form1";
