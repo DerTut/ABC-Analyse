@@ -4,45 +4,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
-using Domain;
-using Domain.Access;
+using System.Data;
 
 namespace einfache_ABC_Analyse
 {
     class Datenbankzugriff
     {
-        public static void Server_zum_verbinden()
+        public static DataTable Server_zum_verbinden(DataTable Daten)
         {
             MySqlConnection connection = new MySqlConnection("server=127.0.0.1;database=stueckliste;userid=root;password=''");
-            Anweisung_zum_ausführen(connection);
+            Anweisung_zum_ausführen(connection, Daten);
+            return Daten;
         }
 
-        private static void Anweisung_zum_ausführen(MySqlConnection connection)
+        private static DataTable Anweisung_zum_ausführen(MySqlConnection connection, DataTable Daten)
         {
             MySqlCommand Anweisung = connection.CreateCommand();
             Anweisung.CommandText = "SELECT * FROM stueckliste";
-            Datenbank_auslesen(connection, Anweisung);
+            Datenbank_auslesen(connection, Anweisung, Daten);
+            return Daten;
         }
 
-        private static void Datenbank_auslesen(MySqlConnection connection, MySqlCommand Anweisung)
+        public static DataTable Datenbank_auslesen(MySqlConnection connection, MySqlCommand Anweisung, DataTable Daten)
         {
-            MySqlDataReader Reader;
+            MySqlDataAdapter Adapter = new MySqlDataAdapter(Anweisung);
+
             connection.Open();
-            Reader = Anweisung.ExecuteReader();
-
-            
-
-            while (Reader.Read())
-            {
-                Daten dat = new Daten();
-                dat.ID = (int)Reader.GetValue(0);
-                dat.Bezeichnung = (string)Reader.GetValue(1);
-                dat.Menge = (double)Reader.GetValue(2);
-                dat.Wert = (double)Reader.GetValue(3);
-                Access.Daten.Add(dat);
-            }
-
+            Adapter.Fill(Daten);
             connection.Close();
+
+            return Daten;
         }
     }
 }
