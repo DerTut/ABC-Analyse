@@ -7,8 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Domain;
-using Domain.Access;
 
 namespace einfache_ABC_Analyse
 {
@@ -21,18 +19,27 @@ namespace einfache_ABC_Analyse
 
         private void Analyse_Load(object sender, EventArgs e)
         {
-            Datenbankzugriff.Server_zum_verbinden();
-            Daten_eintragen();
+            DataTable Daten = Table();
+            Daten = Datenbankzugriff.Server_zum_verbinden(Daten);
+            Daten_eintragen(Daten);
             Spalten_hinzufügen();
-            Berechnungen();
+            einfache_Berechnungen();
+            sortierbar_machen();
+            dataGridView_sortieren();
         }
 
-        private void Daten_eintragen()
+        private DataTable Table()
         {
-            dgv_Anzeige.DataSource = Access.Daten;
+            DataTable Daten = new DataTable();
+            return Daten;
         }
 
-        private void Berechnungen()
+        private void Daten_eintragen(DataTable Daten)
+        {
+            dgv_Anzeige.DataSource = Daten;
+        }
+
+        private void einfache_Berechnungen()
         {
             double Gesamtmenge = 0;
             double Gesamtwert = 0;
@@ -66,6 +73,39 @@ namespace einfache_ABC_Analyse
                 //Wert in Prozent berechnen
                 dgv_Anzeige.Rows[e].Cells[6].Value = Math.Round(Convert.ToDouble(dgv_Anzeige.Rows[e].Cells[4].Value) *100 / Gesamtwert);
             }
+        }
+
+        public void sortierbar_machen()
+        {
+
+            DataTable dt = new DataTable();
+            foreach (DataGridViewColumn col in dgv_Anzeige.Columns)
+            {
+                dt.Columns.Add(col.Name);
+            }
+
+            foreach (DataGridViewRow row in dgv_Anzeige.Rows)
+            {
+                DataRow dRow = dt.NewRow();
+                foreach (DataGridViewCell cell in row.Cells)
+                {
+                    dRow[cell.ColumnIndex] = cell.Value;
+                }
+                dt.Rows.Add(dRow);
+            }
+            dgv_Anzeige.Columns.Clear();
+            dgv_Anzeige.DataSource = dt;
+
+        }
+
+        private void dataGridView_sortieren()
+        {
+            dgv_Anzeige.Sort(dgv_Anzeige.Columns[4], ListSortDirection.Descending);
+        }
+
+        private void Kategorien_errechnen()
+        {
+
         }
 
         private void Spalten_hinzufügen()
